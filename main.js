@@ -1,6 +1,6 @@
 //Ejercicio 1
 let A=2,B=5,C=1;
-console.log(3*A - 4*B / A*2)
+console.log(3*A - 4*B / A**2)
 console.log((((B + C) / 2 * A + 10) * 3 * B) - 6)
 
 //Ejercicio 2
@@ -35,7 +35,7 @@ nota1=parseFloat(prompt('ingrese nota 1 (40%):'))
 nota2=parseFloat(prompt('ingrese la nota 2 (40%):'))
 nota3=parseFloat(prompt('ingrese la nota 3(60%):'))
 nota4=parseFloat(prompt('ingrese la nota 4(60%):'))
-operacion=parseFloat(((nota1+nota2)*0.4)+((nota3+nota4)*0.6) )
+operacion=parseFloat((((nota1+nota2)/2)*0.4)+(((nota3+nota4)/2)*0.6) )
 console.log('su promedio es: ',{operacion})
 
 //Ejercicio 6 
